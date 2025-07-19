@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Home Made Pickles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8ec;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #c44c00;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .btn {
+            background-color: #ff8c42;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #e67300;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>
