@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snacks</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        nav { background-color: #f8b400; padding: 10px; }
+        nav a { margin: 10px; text-decoration: none; color: black; font-weight: bold; }
+
+        .container { padding: 20px; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+
+        .card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-content { padding: 15px; text-align: center; }
+        .card-content h3 { margin: 10px 0; }
+        .card-content p { font-size: 14px; color: #555; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/veg-pickles">Veg Pickles</a>
+        <a href="/nonveg-pickles">Non-Veg Pickles</a>
+        <a href="/snacks">Snacks</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Snacks</h1>
+        <div class="grid">
+            <div class="card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.fNd7Bv0y4rjmNZKIWFM5dgHaEj?pid=Api&P=0&h=180" alt="Murukku">
+                <div class="card-content">
+                    <h3>Murukku</h3>
+                    <p>Crunchy rice flour snack.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.WK31-3RCNu6UaBfBD9UQkQHaEK?pid=Api&P=0&h=180" alt="Chekkalu">
+                <div class="card-content">
+                    <h3>Chekkalu</h3>
+                    <p>Traditional Andhra crispy snack.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/610ROCBvYCL._SL1231_.jpg" alt="Mixture">
+                <div class="card-content">
+                    <h3>Mixture</h3>
+                    <p>Spicy and savory mix of snacks.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.chtMTGp1BS9VikJtJiZOlAHaEK?pid=Api&P=0&h=180" alt="Banana Chips">
+                <div class="card-content">
+                    <h3>Banana Chips</h3>
+                    <p>Fried crunchy banana slices.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.bLiWZM4yacQQRQc0ZmZcawHaFL?pid=Api&P=0&h=180" alt="Kara Boondi">
+                <div class="card-content">
+                    <h3>Kara Boondi</h3>
+                    <p>Fried chickpea flour balls.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="http://1.bp.blogspot.com/-jm48-8pMEWs/TaIOpXuoz4I/AAAAAAAAAXM/pM9IrXRV0bk/s1600/DSCN1774.JPG" alt="Garelu">
+                <div class="card-content">
+                    <h3>Garelu</h3>
+                    <p>Spiced urad dal vadas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
